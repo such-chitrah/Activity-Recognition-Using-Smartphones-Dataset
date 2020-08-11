@@ -1,0 +1,94 @@
+#This is the code book for the project
+
+First, download data from the link provided and unzip it into working directory of R Studio.
+Then, Execute the R script.
+
+The source data are from the Human Activity Recognition Using Smartphones Data Set. 
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+Details can be acessed from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+About R script
+File with R code "run_analysis.R" performs the steps in the course website:
+
+Information regarding the variables listed below:
+x_train, y_train, x_test, y_test, subject_train and subject_test, features, activityLabels contain the data from the downloaded files.
+x_data, y_data and subject_data merge the previous datasets to further analysis.
+features - names for the x_data dataset to be applied to the column names stored in
+
+activity column:
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+measurements:
+"activity"
+"subject"
+"tBodyAcc-mean()-X"
+"tBodyAcc-mean()-Y"
+"tBodyAcc-mean()-Z"
+"tBodyAcc-std()-X"
+"tBodyAcc-std()-Y"
+"tBodyAcc-std()-Z"
+"tGravityAcc-mean()-X"
+"tGravityAcc-mean()-Y"
+"tGravityAcc-mean()-Z"
+"tGravityAcc-std()-X"
+"tGravityAcc-std()-Y"
+"tGravityAcc-std()-Z"
+"tBodyAccJerk-mean()-X"
+"tBodyAccJerk-mean()-Y"
+"tBodyAccJerk-mean()-Z"
+"tBodyAccJerk-std()-X"
+"tBodyAccJerk-std()-Y"
+"tBodyAccJerk-std()-Z"
+"tBodyGyro-mean()-X"
+"tBodyGyro-mean()-Y"
+"tBodyGyro-mean()-Z"
+"tBodyGyro-std()-X"
+"tBodyGyro-std()-Y"
+"tBodyGyro-std()-Z"
+"tBodyGyroJerk-mean()-X"
+"tBodyGyroJerk-mean()-Y"
+"tBodyGyroJerk-mean()-Z"
+"tBodyGyroJerk-std()-X"
+"tBodyGyroJerk-std()-Y"
+"tBodyGyroJerk-std()-Z"
+"tBodyAccMag-mean()"
+"tBodyAccMag-std()"
+"tGravityAccMag-mean()"
+"tGravityAccMag-std()"
+"tBodyAccJerkMag-mean()"
+"tBodyAccJerkMag-std()"
+"tBodyGyroMag-mean()"
+"tBodyGyroMag-std()"
+"tBodyGyroJerkMag-mean()"
+"tBodyGyroJerkMag-std()"
+"fBodyAcc-mean()-X"
+"fBodyAcc-mean()-Y"
+"fBodyAcc-mean()-Z"
+"fBodyAcc-std()-X"
+"fBodyAcc-std()-Y"
+"fBodyAcc-std()-Z"
+"fBodyAccJerk-mean()-X"
+"fBodyAccJerk-mean()-Y"
+"fBodyAccJerk-mean()-Z"
+"fBodyAccJerk-std()-X"
+"fBodyAccJerk-std()-Y"
+"fBodyAccJerk-std()-Z"
+"fBodyGyro-mean()-X"
+"fBodyGyro-mean()-Y"
+"fBodyGyro-mean()-Z"
+"fBodyGyro-std()-X"
+"fBodyGyro-std()-Y"
+"fBodyGyro-std()-Z"
+"fBodyAccMag-mean()"
+"fBodyAccMag-std()"
+"fBodyBodyAccJerkMag-mean()"
+"fBodyBodyAccJerkMag-std()"
+"fBodyBodyGyroMag-mean()"
+"fBodyBodyGyroMag-std()"
+"fBodyBodyGyroJerkMag-mean()"
+"fBodyBodyGyroJerkMag-std()"
